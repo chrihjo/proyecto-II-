@@ -201,7 +201,7 @@ hr{
     line-height: 2.8;
   }
   
-  .footer {
+  .footer{
     background: #2f3640;
     color: #616161;
     font-size: 12px;
@@ -268,7 +268,7 @@ hr{
   
   @media (max-width: 500px) {
     .nuevo {
-      grid-template-columns: 1fr;
+      grid-template-columns: repeat(2, 1fr);
     }
   
     .se .segundo,
@@ -277,7 +277,7 @@ hr{
       padding: 60px 20px;
     }
     .footer-links .footer-container {
-      grid-template-columns: 1fr;
+      grid-template-columns: repeat(2, 1fr);
     }
   
     .footer-links .footer-container ul {
